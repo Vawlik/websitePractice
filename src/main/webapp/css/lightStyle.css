@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+/*
+#ccccff - regular
+#c0c0f0 - darker (border)
+#fff0f0 - peach, for sections
+#f0f033 - dark text
+*/
+
+/*.head {*/
+/*    width: 99%;*/
+/*    padding: 10px;*/
+/*    font-weight: 900;*/
+/*    font-size: 1.2em;*/
+/*    background-color: #33302A; !*цвет фона*!*/
+/*}*/
+.head-name{
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+    width:59%;
+
+}
+
+.head-menu{
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.head-text{
+    color: white;
+    font-family: "Mulish", sans-serif;
+    text-decoration: none;
+}
+/*.foot {*/
+/*    width: 100%;*/
+/*    padding-top: 0.15em;*/
+/*    padding-bottom: 0.15em;*/
+/*    font-size: 1em;*/
+/*    background-color: #33302A; !*цвет фона*!*/
+/*}*/
+/*.foot-text{*/
+/*    padding-right: 5px;*/
+/*    color: white;*/
+/*}*/
+.page-text{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: "Mulish",sans-serif;
+    text-decoration: none;
+    color: #282323;
+}
+.container-auth{
+    width: 250px;
+    height: 150px;
+    background-color: #33302A;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 24.7%;
+    margin-left: 43%;
+}
+.container-reg{
+    width: 250px;
+    height: 175px;
+    background-color: #33302A;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 23.3%;
+    margin-left: 43%;
+}
+.menu-text{
+    color: black;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container-about{
+    margin-left: 12.5%;
+    margin-bottom: 38.6%;
+    width: 75%;
+    height: 150px;
+}
+.container-text{
+    margin-left: 12.5%;
+    margin-bottom: 51%;
+    width: 75%;
+    height: 150px;
+}
+.container-table{
+    margin-left: 12.5%;
+    margin-bottom: 51%;
+    width: 75%;
+    height: 150px;
+    border: 5px solid black;
+}
+.account-table {
+    width: 100%;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 1.2em;
+    background-color: #33302A; /*цвет фона*/
+}
+.right-align {
+    text-align: right;
+}
+a.blubtn {
+    width:200px;
+    text-align:center;
+    display:block;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+    border: #1071FF 1px solid;
+    color: #1071FF;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: .5s;
+    border-radius: 0px;
+}
+a.blubtn:hover {
+    top: 5px;
+    transition: .5s;
+    color: #10FF58;
+    border: #10FF58 1px solid;
+    border-radius: 10px;
+}
+a.blubtn:active {
+    color: #000;
+    border: #1A1A1A 1px solid;
+    transition: .07s;
+    background-color: #FFF;
+}
+.body-bg {
+    background-image: url("../img/backphoto.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.news-container {
+    border: 2px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.news-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.news-item img {
+    margin-right: 20px;
+}
+
+.news-content {
+    flex-grow: 1;
+    text-align: justify;
+}
+
+.news-item h3, .news-item p {
+    font-weight: bold;
+    color: #333;
+}
+.news-content:hover h3, .news-content:hover p {
+    color: #F59132;
+}
+
+/* Общие стили для рамок и таблицы */
+.frame {
+    background-color: white;
+    padding: 20px;
+}
+
+.frame .table td {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+/* Стили для рамки с премиум недвижимостью */
+.premium-frame {
+    border: 3px solid red;
+    margin-bottom: 20px;
+}
+
+.economy-frame {
+    border: 3px solid green;
+    margin-bottom: 20px;
+}
+
+.rental-frame {
+    border: 3px solid blue;
+    margin-bottom: 20px;
+}
+
+/* Стили для изображения внутри рамки */
+.frame img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+.frame-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.frame:last-child {
+    margin-bottom: 0;
+}
+.container-one {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.image {
+    float: left;
+    margin-right: 20px;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-style: italic;
+    color: #888;
+}
+
+.full-description {
+    margin-top: 20px;
+}
+
+.news-container {
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 20px auto;
+    width: 800px;
+    border-radius: 5px;
+}
+.date {
+    text-align: right;
+}
+/*---------------------------------------------------------------------------------*/
+
+
+

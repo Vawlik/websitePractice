@@ -1,0 +1,5 @@
+CREATE TABLE information (
+    numberPhone varchar,
+    email varchar,
+    comment varchar
+);

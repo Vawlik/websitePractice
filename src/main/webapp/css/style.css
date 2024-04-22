@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+#carouselExampleIndicators {
+    max-width: 700px;
+    float: left;
+    margin-right: 20px;
+}
+
+.carousel-item img {
+    height: 550px;
+    object-fit: cover;
+}
+
+table {
+    float: left;
+    width: 40%;
+    margin-right: 20px;
+}
+
+table th {
+    text-align: left;
+    font-size: 20px;
+}
+
+table td {
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.consultation-section {
+    margin-top: 30px;
+}
+
+.phone-button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.map-container {
+    width: 100%;
+    height: 600px;
+    margin-top: 5px;
+}
+
+.map-title {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+.body-bg {
+    background-image: url("../img/backphoto.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container-text{
+    margin-left: 12.5%;
+    margin-bottom: 51%;
+    width: 75%;
+    height: 150px;
+}
+.page-text{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: "Mulish",sans-serif;
+    text-decoration: none;
+    color: #282323;
+}
